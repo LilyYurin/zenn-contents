@@ -8,7 +8,7 @@ published: false
 
 ## はじめに
 
-動画配信や情報共有の効率化を目指す次世代ネットワーク技術「CCN（Content-Centric Networking）」の実装の1つであり、[NICT](https://www.nict.go.jp/)によりープンソースプラットフォームにて開発が行われている **[Cefore](https://cefore.net/)**。本記事では、Ubuntu環境にCeforeを導入し、起動の確認までの手順をまとめます。
+動画配信や情報共有の効率化を目指す次世代ネットワーク技術「CCN（Content-Centric Networking）」の実装の1つであり、**[NICT](https://www.nict.go.jp/)**によりープンソースプラットフォームにて開発が行われている **[Cefore](https://cefore.net/)**。本記事では、Ubuntu環境にCeforeを導入し、起動の確認までの手順をまとめます。
 :::message
 本記事は作成時点において最新であるCefore-version0.11.0を元に動作確認を行っています。
 バージョンによっては異なる操作が必要となる可能性があるため、詳しくは[Github repository](https://github.com/cefore/cefore/)のreadmeを参照ください。
@@ -219,7 +219,7 @@ $ sudo csmgrdstop
 
 ## おわりに
 
-今回は、Ubuntu 24.04 LTS における Cefore の手動導入手順を紹介しました。
+今回は、Ubuntu 24.04 LTSにおけるCeforeの導入手順を紹介しました。
 今後はPublisher/Consumer間で実際にファイルのやり取りを行う方法までを記事にできればと思います。
 ## 補足：Dockerを利用して構築を行う
 
