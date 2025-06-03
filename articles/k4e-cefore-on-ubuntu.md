@@ -2,13 +2,13 @@
 title: "Ubuntu 24.04 LTS にCeforeを導入する方法"
 emoji: "💻"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: [Cefore,"ICN","Ubuntu"]
+topics: [Cefore,"ICN","CCN","Ubuntu"]
 published: false
 ---
 
 ## はじめに
 
-動画配信や情報共有の効率化を目指す次世代ネットワーク技術「CCN（Content-Centric Networking）」の実装の1つであり、**[NICT](https://www.nict.go.jp/)**によりープンソースプラットフォームにて開発が行われている **[Cefore](https://cefore.net/)**。本記事では、Ubuntu環境にCeforeを導入し、起動の確認までの手順をまとめます。
+動画配信や情報共有の効率化を目指す次世代ネットワーク技術「CCN（Content-Centric Networking）」の実装の1つであり、**[NICT](https://www.nict.go.jp/)** によりープンソースプラットフォームにて開発が行われている **[Cefore](https://cefore.net/)**。本記事では、Ubuntu環境にCeforeを導入し、起動の確認までの手順をまとめます。
 :::message
 本記事は作成時点において最新であるCefore-version0.11.0を元に動作確認を行っています。
 バージョンによっては異なる操作が必要となる可能性があるため、詳しくは[Github repository](https://github.com/cefore/cefore/)のreadmeを参照ください。
